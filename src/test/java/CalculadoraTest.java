@@ -1,4 +1,4 @@
-import org.example.Calculadora;
+import org.main.Calculadora;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
