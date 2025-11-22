@@ -22,4 +22,14 @@ public class PruebasTareaDosTest {
     void testMuyCorta() {
         assertFalse(PruebasTareaDosCodigo.isValidPassword("Pass1"));
     }
+    @Test
+    void testPasswordNull() {
+        assertFalse(PruebasTareaDosCodigo.isValidPassword(null));
+    }
+    @Test
+    void testSinNumeroNiMayusculas() {
+        assertFalse(PruebasTareaDosCodigo.isValidPassword("password"));
+    }
+
+
 }
