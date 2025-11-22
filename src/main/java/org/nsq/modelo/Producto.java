@@ -5,10 +5,10 @@ import java.util.Objects;
 public class Producto{
 
 
-    private String nombre;               // Ej: "Laptop"
-    private double precio;               // Ej: 1200.50
+    private String nombre;
+    private double precio;
     private int cantidad;
-    private String sku;                  /
+    private String sku;
     private String categoria;
     private boolean esActivo;
     private boolean descuentoAplicable;
